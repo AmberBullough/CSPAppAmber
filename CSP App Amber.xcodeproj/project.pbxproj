@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8331FA220D600061DF7 /* AppDelegate.swift */; };
+		D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8351FA220D600061DF7 /* ViewController.swift */; };
+		D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF8371FA220D600061DF7 /* Main.storyboard */; };
+		D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93CF83A1FA220D600061DF7 /* Assets.xcassets */; };
+		D93CF83E1FA220D600061DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */; };
+		D93CF8491FA220D600061DF7 /* CSP_App_AmberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8481FA220D600061DF7 /* CSP_App_AmberTests.swift */; };
+		D93CF8541FA220D600061DF7 /* CSP_App_AmberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8531FA220D600061DF7 /* CSP_App_AmberUITests.swift */; };
+		D93CF8671FA2232F00061DF7 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */; };
+		D93CF8691FA2235400061DF7 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8681FA2235400061DF7 /* AbstractionViewController.swift */; };
+		D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */; };
+		D93CF86D1FA2238A00061DF7 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */; };
+		D93CF86F1FA223A300061DF7 /* TheInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86E1FA223A300061DF7 /* TheInternetViewController.swift */; };
+		D93CF8711FA223C300061DF7 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8701FA223C300061DF7 /* GlobalImpactViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D93CF8451FA220D600061DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D93CF8281FA220D600061DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93CF82F1FA220D600061DF7;
+			remoteInfo = "CSP App Amber";
+		};
+		D93CF8501FA220D600061DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D93CF8281FA220D600061DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93CF82F1FA220D600061DF7;
+			remoteInfo = "CSP App Amber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D93CF8301FA220D600061DF7 /* CSP App Amber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSP App Amber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93CF8331FA220D600061DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D93CF8351FA220D600061DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D93CF8381FA220D600061DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D93CF83A1FA220D600061DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93CF83D1FA220D600061DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D93CF83F1FA220D600061DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93CF8441FA220D600061DF7 /* CSP App AmberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSP App AmberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93CF8481FA220D600061DF7 /* CSP_App_AmberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSP_App_AmberTests.swift; sourceTree = "<group>"; };
+		D93CF84A1FA220D600061DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93CF84F1FA220D600061DF7 /* CSP App AmberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSP App AmberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93CF8531FA220D600061DF7 /* CSP_App_AmberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSP_App_AmberUITests.swift; sourceTree = "<group>"; };
+		D93CF8551FA220D600061DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		D93CF8681FA2235400061DF7 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
+		D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		D93CF86E1FA223A300061DF7 /* TheInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetViewController.swift; sourceTree = "<group>"; };
+		D93CF8701FA223C300061DF7 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93CF82D1FA220D600061DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CF8411FA220D600061DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CF84C1FA220D600061DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93CF8271FA220D600061DF7 = {
+			isa = PBXGroup;
+			children = (
+				D93CF8321FA220D600061DF7 /* CSP App Amber */,
+				D93CF8471FA220D600061DF7 /* CSP App AmberTests */,
+				D93CF8521FA220D600061DF7 /* CSP App AmberUITests */,
+				D93CF8311FA220D600061DF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93CF8311FA220D600061DF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF8301FA220D600061DF7 /* CSP App Amber.app */,
+				D93CF8441FA220D600061DF7 /* CSP App AmberTests.xctest */,
+				D93CF84F1FA220D600061DF7 /* CSP App AmberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93CF8321FA220D600061DF7 /* CSP App Amber */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF8651FA2214E00061DF7 /* Rescources */,
+				D93CF8641FA2213B00061DF7 /* View */,
+				D93CF8621FA2212400061DF7 /* Model */,
+				D93CF8611FA2211000061DF7 /* Controller */,
+			);
+			path = "CSP App Amber";
+			sourceTree = "<group>";
+		};
+		D93CF8471FA220D600061DF7 /* CSP App AmberTests */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF8481FA220D600061DF7 /* CSP_App_AmberTests.swift */,
+				D93CF84A1FA220D600061DF7 /* Info.plist */,
+			);
+			path = "CSP App AmberTests";
+			sourceTree = "<group>";
+		};
+		D93CF8521FA220D600061DF7 /* CSP App AmberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF8531FA220D600061DF7 /* CSP_App_AmberUITests.swift */,
+				D93CF8551FA220D600061DF7 /* Info.plist */,
+			);
+			path = "CSP App AmberUITests";
+			sourceTree = "<group>";
+		};
+		D93CF8611FA2211000061DF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF8331FA220D600061DF7 /* AppDelegate.swift */,
+				D93CF8351FA220D600061DF7 /* ViewController.swift */,
+				D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */,
+				D93CF8681FA2235400061DF7 /* AbstractionViewController.swift */,
+				D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */,
+				D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */,
+				D93CF86E1FA223A300061DF7 /* TheInternetViewController.swift */,
+				D93CF8701FA223C300061DF7 /* GlobalImpactViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D93CF8621FA2212400061DF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D93CF8641FA2213B00061DF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF8371FA220D600061DF7 /* Main.storyboard */,
+				D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D93CF8651FA2214E00061DF7 /* Rescources */ = {
+			isa = PBXGroup;
+			children = (
+				D93CF83A1FA220D600061DF7 /* Assets.xcassets */,
+				D93CF83F1FA220D600061DF7 /* Info.plist */,
+			);
+			path = Rescources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93CF82F1FA220D600061DF7 /* CSP App Amber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93CF8581FA220D600061DF7 /* Build configuration list for PBXNativeTarget "CSP App Amber" */;
+			buildPhases = (
+				D93CF82C1FA220D600061DF7 /* Sources */,
+				D93CF82D1FA220D600061DF7 /* Frameworks */,
+				D93CF82E1FA220D600061DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSP App Amber";
+			productName = "CSP App Amber";
+			productReference = D93CF8301FA220D600061DF7 /* CSP App Amber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D93CF8431FA220D600061DF7 /* CSP App AmberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93CF85B1FA220D600061DF7 /* Build configuration list for PBXNativeTarget "CSP App AmberTests" */;
+			buildPhases = (
+				D93CF8401FA220D600061DF7 /* Sources */,
+				D93CF8411FA220D600061DF7 /* Frameworks */,
+				D93CF8421FA220D600061DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93CF8461FA220D600061DF7 /* PBXTargetDependency */,
+			);
+			name = "CSP App AmberTests";
+			productName = "CSP App AmberTests";
+			productReference = D93CF8441FA220D600061DF7 /* CSP App AmberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D93CF84E1FA220D600061DF7 /* CSP App AmberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93CF85E1FA220D600061DF7 /* Build configuration list for PBXNativeTarget "CSP App AmberUITests" */;
+			buildPhases = (
+				D93CF84B1FA220D600061DF7 /* Sources */,
+				D93CF84C1FA220D600061DF7 /* Frameworks */,
+				D93CF84D1FA220D600061DF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93CF8511FA220D600061DF7 /* PBXTargetDependency */,
+			);
+			name = "CSP App AmberUITests";
+			productName = "CSP App AmberUITests";
+			productReference = D93CF84F1FA220D600061DF7 /* CSP App AmberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93CF8281FA220D600061DF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = CTEC;
+				TargetAttributes = {
+					D93CF82F1FA220D600061DF7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D93CF8431FA220D600061DF7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D93CF82F1FA220D600061DF7;
+					};
+					D93CF84E1FA220D600061DF7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D93CF82F1FA220D600061DF7;
+					};
+				};
+			};
+			buildConfigurationList = D93CF82B1FA220D600061DF7 /* Build configuration list for PBXProject "CSP App Amber" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93CF8271FA220D600061DF7;
+			productRefGroup = D93CF8311FA220D600061DF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93CF82F1FA220D600061DF7 /* CSP App Amber */,
+				D93CF8431FA220D600061DF7 /* CSP App AmberTests */,
+				D93CF84E1FA220D600061DF7 /* CSP App AmberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93CF82E1FA220D600061DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93CF83E1FA220D600061DF7 /* LaunchScreen.storyboard in Resources */,
+				D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */,
+				D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CF8421FA220D600061DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CF84D1FA220D600061DF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93CF82C1FA220D600061DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93CF86D1FA2238A00061DF7 /* ProgrammingViewController.swift in Sources */,
+				D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */,
+				D93CF8711FA223C300061DF7 /* GlobalImpactViewController.swift in Sources */,
+				D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */,
+				D93CF8671FA2232F00061DF7 /* CreativityViewController.swift in Sources */,
+				D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */,
+				D93CF86F1FA223A300061DF7 /* TheInternetViewController.swift in Sources */,
+				D93CF8691FA2235400061DF7 /* AbstractionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CF8401FA220D600061DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93CF8491FA220D600061DF7 /* CSP_App_AmberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93CF84B1FA220D600061DF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93CF8541FA220D600061DF7 /* CSP_App_AmberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D93CF8461FA220D600061DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93CF82F1FA220D600061DF7 /* CSP App Amber */;
+			targetProxy = D93CF8451FA220D600061DF7 /* PBXContainerItemProxy */;
+		};
+		D93CF8511FA220D600061DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93CF82F1FA220D600061DF7 /* CSP App Amber */;
+			targetProxy = D93CF8501FA220D600061DF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D93CF8371FA220D600061DF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93CF8381FA220D600061DF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93CF83D1FA220D600061DF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D93CF8561FA220D600061DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D93CF8571FA220D600061DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D93CF8591FA220D600061DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSP App Amber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-App-Amber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D93CF85A1FA220D600061DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSP App Amber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-App-Amber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D93CF85C1FA220D600061DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSP App AmberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-App-AmberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSP App Amber.app/CSP App Amber";
+			};
+			name = Debug;
+		};
+		D93CF85D1FA220D600061DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSP App AmberTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-App-AmberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSP App Amber.app/CSP App Amber";
+			};
+			name = Release;
+		};
+		D93CF85F1FA220D600061DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSP App AmberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-App-AmberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CSP App Amber";
+			};
+			name = Debug;
+		};
+		D93CF8601FA220D600061DF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CSP App AmberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.CSP-App-AmberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CSP App Amber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93CF82B1FA220D600061DF7 /* Build configuration list for PBXProject "CSP App Amber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93CF8561FA220D600061DF7 /* Debug */,
+				D93CF8571FA220D600061DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93CF8581FA220D600061DF7 /* Build configuration list for PBXNativeTarget "CSP App Amber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93CF8591FA220D600061DF7 /* Debug */,
+				D93CF85A1FA220D600061DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93CF85B1FA220D600061DF7 /* Build configuration list for PBXNativeTarget "CSP App AmberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93CF85C1FA220D600061DF7 /* Debug */,
+				D93CF85D1FA220D600061DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93CF85E1FA220D600061DF7 /* Build configuration list for PBXNativeTarget "CSP App AmberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93CF85F1FA220D600061DF7 /* Debug */,
+				D93CF8601FA220D600061DF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93CF8281FA220D600061DF7 /* Project object */;
+}
