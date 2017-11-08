@@ -22,6 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="118" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HSj-cz-7Yp">
@@ -87,16 +88,35 @@
         <scene sceneID="uwa-oe-cnw">
             <objects>
                 <viewController id="ATg-vc-Hfg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Juu-Ie-MgC">
+                    <view key="view" contentMode="scaleToFill" id="Juu-Ie-MgC" customClass="AlgorithmsViewController" customModule="CSP_App_Amber" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="javaSample copy2x" translatesAutoresizingMaskIntoConstraints="NO" id="X7k-S0-G6b">
+                                <rect key="frame" x="28" y="418" width="319" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59R-4s-1Kv" customClass="Attributed">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Algorithms">
+                                        <attributes>
+                                            <font key="NSFont" size="35" name="Apple-Chancery"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="dyS-qY-cvi"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njx-6y-ICr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="866" y="118"/>
+            <point key="canvasLocation" x="864.79999999999995" y="117.39130434782609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bjM-nW-yn6">
@@ -129,4 +149,7 @@
             <point key="canvasLocation" x="2294" y="117"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="javaSample copy2x" width="1126" height="754"/>
+    </resources>
 </document>
