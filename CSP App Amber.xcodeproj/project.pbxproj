@@ -20,6 +20,7 @@
 		D93CF86D1FA2238A00061DF7 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */; };
 		D93CF86F1FA223A300061DF7 /* TheInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86E1FA223A300061DF7 /* TheInternetViewController.swift */; };
 		D93CF8711FA223C300061DF7 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8701FA223C300061DF7 /* GlobalImpactViewController.swift */; };
+		D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		D93CF86E1FA223A300061DF7 /* TheInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetViewController.swift; sourceTree = "<group>"; };
 		D93CF8701FA223C300061DF7 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				D93CF8331FA220D600061DF7 /* AppDelegate.swift */,
 				D93CF8351FA220D600061DF7 /* ViewController.swift */,
 				D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */,
+				D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */,
 				D93CF8681FA2235400061DF7 /* AbstractionViewController.swift */,
 				D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */,
 				D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */,
@@ -313,6 +316,7 @@
 				D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */,
 				D93CF8711FA223C300061DF7 /* GlobalImpactViewController.swift in Sources */,
 				D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */,
+				D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */,
 				D93CF8671FA2232F00061DF7 /* CreativityViewController.swift in Sources */,
 				D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */,
 				D93CF86F1FA223A300061DF7 /* TheInternetViewController.swift in Sources */,
