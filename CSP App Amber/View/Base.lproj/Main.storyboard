@@ -8,6 +8,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="OriyaSangamMN.ttc">
+            <string>OriyaSangamMN-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -22,6 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Algorithms"/>
                                 <connections>
+                                    <action selector="AlgorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xqZ-je-xuI"/>
                                     <action selector="AlgorithmsSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LI2-DS-yaM"/>
                                     <segue destination="ATg-vc-Hfg" kind="show" id="wSJ-k5-jA8"/>
                                 </connections>
@@ -31,6 +37,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="AlgorithmButton" destination="egW-JO-diY" id="h8P-FF-RHn"/>
                         <outlet property="AlgorithmsSegue" destination="egW-JO-diY" id="aos-A8-WYR"/>
                     </connections>
                 </viewController>
@@ -135,20 +142,78 @@
             </objects>
             <point key="canvasLocation" x="864.79999999999995" y="117.39130434782609"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="bjM-nW-yn6">
+        <!--GIVC2-->
+        <scene sceneID="2yL-Vz-bLY">
             <objects>
-                <viewController id="Q19-5t-IIq" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eBG-aR-dSR">
+                <viewController id="QD6-8s-AlT" customClass="GIVC2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lkr-4F-gfT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zhg-dM-Wa1">
+                                <rect key="frame" x="67" y="20" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JqF-Ne-lDi"/>
+                    </view>
+                    <connections>
+                        <outlet property="PatientFactsInfo" destination="Zhg-dM-Wa1" id="bEJ-Dv-XEt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rKj-w8-UQj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1583" y="-544"/>
+        </scene>
+        <!--Global Impact View Controller-->
+        <scene sceneID="bjM-nW-yn6">
+            <objects>
+                <viewController id="Q19-5t-IIq" customClass="GlobalImpactViewController" customModule="CSP_App_Amber" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eBG-aR-dSR" customClass="GlobalImactViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZE-mm-RXr">
+                                <rect key="frame" x="71" y="108" width="248" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXe-Yg-Vu1">
+                                <rect key="frame" x="313" y="20" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="QD6-8s-AlT" kind="show" id="weB-xf-p6L"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hef-9B-vZ5">
+                                <rect key="frame" x="71" y="179" width="248" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ahm-Ba-EDd"/>
+                        <connections>
+                            <outlet property="HDYFTInput" destination="Hef-9B-vZ5" id="zwT-dW-YNE"/>
+                            <outlet property="HDYFTLabel" destination="AZE-mm-RXr" id="oGm-NI-MCe"/>
+                            <outlet property="Logon" destination="pXe-Yg-Vu1" id="dkG-eH-7Mz"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="HDYFTInput" destination="Hef-9B-vZ5" id="POz-wP-rtx"/>
+                        <outlet property="HDYFTLabel" destination="AZE-mm-RXr" id="zp5-7P-A9s"/>
+                        <outlet property="Logon" destination="pXe-Yg-Vu1" id="kOF-Qz-ezA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ikr-Kk-RrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="118"/>
+            <point key="canvasLocation" x="1588" y="117.39130434782609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oK8-rw-mhS">
