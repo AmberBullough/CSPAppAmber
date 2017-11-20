@@ -10,6 +10,6 @@ import Foundation
 public protocol Moldable
 {
     var moldState : Bool {get set}
-    func mold() -> VOid
+    func mold() -> Void
     func isMolded() -> Bool
 }
