@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egW-JO-diY">
-                                <rect key="frame" x="141" y="246" width="93" height="111"/>
+                                <rect key="frame" x="16" y="20" width="93" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Algorithms"/>
                                 <connections>
@@ -59,6 +59,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fjV-Rv-87b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="118" y="850"/>
+        </scene>
+        <!--Abstraction View Controller-->
+        <scene sceneID="wSK-ye-IPj">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="T9C-5e-my6" customClass="AbstractionViewController" customModule="CSP_App_Amber" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yDm-up-FtD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-602" y="1727"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8lf-77-VJz">
@@ -281,10 +289,10 @@
             </objects>
             <point key="canvasLocation" x="2294" y="850"/>
         </scene>
-        <!--View Controller-->
+        <!--Algorithms View Controller-->
         <scene sceneID="uwa-oe-cnw">
             <objects>
-                <viewController id="ATg-vc-Hfg" sceneMemberID="viewController">
+                <viewController id="ATg-vc-Hfg" customClass="AlgorithmsViewController" customModule="CSP_App_Amber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Juu-Ie-MgC" customClass="AlgorithmsViewController" customModule="CSP_App_Amber" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njx-6y-ICr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="117"/>
+            <point key="canvasLocation" x="881" y="-384"/>
         </scene>
         <!--GIVC2-->
         <scene sceneID="2yL-Vz-bLY">
