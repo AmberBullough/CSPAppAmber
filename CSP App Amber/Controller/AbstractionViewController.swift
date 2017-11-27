@@ -28,8 +28,20 @@ public class AbstractionViewController : UIPageViewController, UIPageViewControl
     
     override public func viewDidLoad()
     {
+        super.viewDidLoad()
+        dataSource = self
         
+        if let firstViewController = orderedAbstractisViews.first
+        {
+            setViewControllers([firstViewController],
+                               diretion: .forward,
+                               animated: true,
+                               completion: nil)
+        }
     }
     
-    public func pageViewController (_ pageViewController: UIPageViewController viewControllerBefore)
+    public func pageViewController (_ pageViewController: UIPageViewController viewControllerBefore viewController:ViewController) -> UIViewController?
+    {
+        
+    }
 }
