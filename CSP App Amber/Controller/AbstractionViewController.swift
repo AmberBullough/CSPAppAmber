@@ -61,7 +61,7 @@ public class AbstractionViewController : UIPageViewController, UIPageViewControl
         }
         return orderedAbstractionViews[previousIndex]
     }
-    public func pageViewController(_pageViewController: UIPageViewController, viwControllerAfter viewController: UIViewController) -> UIViewController?
+    public func pageViewController(_ _pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else
