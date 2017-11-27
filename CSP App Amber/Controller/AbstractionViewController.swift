@@ -23,7 +23,7 @@ public class AbstractionViewController : UIPageViewController, UIPageViewControl
     
     private func newAbstractionViewController(abstractionLevel : String) -> UIViewController
     {
-        
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel) ViewController")
     }
     
     override public func viewDidLoad()
@@ -31,5 +31,5 @@ public class AbstractionViewController : UIPageViewController, UIPageViewControl
         
     }
     
-    d
+    public func pageViewController (_ pageViewController: UIPageViewController viewControllerBefore)
 }
