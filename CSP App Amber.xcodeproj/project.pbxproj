@@ -10,6 +10,7 @@
 		D9304AE51FB60AAD00709C39 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */; };
 		D9304AE71FB60BFC00709C39 /* GIVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304AE61FB60BFC00709C39 /* GIVC2.swift */; };
 		D93B01931FCF044E0001AC84 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */; };
+		D93B01961FCF0B2C0001AC84 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93B01951FCF0B2C0001AC84 /* WebKit.framework */; };
 		D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8331FA220D600061DF7 /* AppDelegate.swift */; };
 		D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8351FA220D600061DF7 /* ViewController.swift */; };
 		D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF8371FA220D600061DF7 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		D9304AE61FB60BFC00709C39 /* GIVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIVC2.swift; sourceTree = "<group>"; };
 		D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		D93B01951FCF0B2C0001AC84 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D93CF8301FA220D600061DF7 /* CSP App Amber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSP App Amber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93CF8331FA220D600061DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D93CF8351FA220D600061DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93B01961FCF0B2C0001AC84 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D93B01941FCF0B2C0001AC84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93B01951FCF0B2C0001AC84 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D93CF8271FA220D600061DF7 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +116,7 @@
 				D93CF8471FA220D600061DF7 /* CSP App AmberTests */,
 				D93CF8521FA220D600061DF7 /* CSP App AmberUITests */,
 				D93CF8311FA220D600061DF7 /* Products */,
+				D93B01941FCF0B2C0001AC84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
