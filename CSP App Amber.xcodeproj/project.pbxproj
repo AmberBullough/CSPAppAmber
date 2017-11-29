@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D9304AE51FB60AAD00709C39 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */; };
 		D9304AE71FB60BFC00709C39 /* GIVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9304AE61FB60BFC00709C39 /* GIVC2.swift */; };
+		D93B01931FCF044E0001AC84 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */; };
 		D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8331FA220D600061DF7 /* AppDelegate.swift */; };
 		D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8351FA220D600061DF7 /* ViewController.swift */; };
 		D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF8371FA220D600061DF7 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		D9304AE61FB60BFC00709C39 /* GIVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIVC2.swift; sourceTree = "<group>"; };
+		D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		D93CF8301FA220D600061DF7 /* CSP App Amber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSP App Amber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93CF8331FA220D600061DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D93CF8351FA220D600061DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */,
 				D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */,
 				D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */,
+				D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */,
 				D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */,
 			);
 			path = Controller;
@@ -330,6 +333,7 @@
 				D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */,
 				D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */,
 				D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */,
+				D93B01931FCF044E0001AC84 /* InternetDetailViewController.swift in Sources */,
 				D9B25EA71FC32A6900B77DC5 /* ClayMolds.swift in Sources */,
 				D93CF8671FA2232F00061DF7 /* CreativityViewController.swift in Sources */,
 				D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */,
