@@ -67,6 +67,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" identifier="showDetail" id="oMw-cC-qA6"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -531,4 +534,7 @@
         <image name="1x blocks" width="1877" height="657"/>
         <image name="javaSample copy2x" width="1126" height="754"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="oMw-cC-qA6"/>
+    </inferredMetricsTieBreakers>
 </document>
