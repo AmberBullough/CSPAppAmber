@@ -21,8 +21,39 @@ public class InternetDetailViewController : UIViewController
         setup()
     }
     
-    private func setup() -> Void
+    private func configureDetailVie() -> Void
     {
+        if detailAddress != nil
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: detailAddress!)
+                let current WebRequest = URLRequest(url:currentURL!)
+                currentWebView.load(currentWebRequest)
+            }
+        }
+        else
+        {
+            if let currentWebView = webViewer
+            {
+                let currentURL = URL(string: "https://www.cnn.com")
+                currentWebView.load(URLRequest(url:currentURL!))
+            }
+        }
         
+        if detailText != nil
+        {
+            if let currentText = textView
+            {
+                currentText.text = detailText
+            }
+        }
+        else
+        {
+            if let currentText = textView
+            {
+                currentText.text = "Amber CSP app internet screen"
+            }
+        }
     }
 }
