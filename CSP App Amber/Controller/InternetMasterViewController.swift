@@ -24,7 +24,7 @@ public class InternetMasterViewController : UITableViewController
     
     private lazy var addresses: [String] = []
     
-    private var detailViewController: InternetDetailViewCotroller?
+    private var detailViewController: InternetDetailViewController?
     
     private func setup() -> Void
     {
@@ -52,7 +52,7 @@ public class InternetMasterViewController : UITableViewController
         self.clearsSelectionOnViewWillAppear = false
     }
 
-    override public func numberOfSections(in tableVieweUITableView) -> Int
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
         return 1
     }
@@ -64,7 +64,7 @@ public class InternetMasterViewController : UITableViewController
 
     override public func tableView(_ tableView: UITableView , cellForRowAt indexPath: IndexPath) -> UITableViewCell
 {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "reusedentifier", for: indexpath)
+    let cell = tableView.dequeueReusableCell(withIdentifier: "reuseidentifier", for: indexPath)
     let currentText = internetTopics[indexPath.row]
     cell.textLabel!.text = currentText
     
@@ -83,19 +83,19 @@ public class InternetMasterViewController : UITableViewController
             if indexPath.row == 0
             {
                 //Replace with definitions. Great time to use the "" operator
-                pageText = "allthe definitions you wrote......."
+                pageText = "all the definitions you wrote......."
             }
             else
             {
                 pageText = internetTopics[indexPath.row]
             }
             
-            let cibtrikker = segue.destination as! InternetDetailViewController
+            let controller = segue.destination as! InternetDetailViewController
             
             controller.detailAddress = urlString
             controller.detailText = pageText
             controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-            controller.navigationItem.leftItemSupplementBackButton = true
+            controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }

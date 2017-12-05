@@ -20,15 +20,32 @@ public class InternetDetailViewController : UIViewController
         super.viewDidLoad()
         setup()
     }
+    private func setup() -> Void
+    {
+    }
     
-    private func configureDetailVie() -> Void
+    var detailAddress: String?
+    {
+        didSet
+        {
+            configureDetailView()
+        }
+    }
+        var detailText : String?
+    {
+        didSet
+        {
+            configureDetailView()
+        }
+    }
+    private func configureDetailView() -> Void
     {
         if detailAddress != nil
         {
             if let currentWebView = webViewer
             {
                 let currentURL = URL(string: detailAddress!)
-                let current WebRequest = URLRequest(url:currentURL!)
+                let currentWebRequest = URLRequest(url:currentURL!)
                 currentWebView.load(currentWebRequest)
             }
         }
@@ -55,5 +72,8 @@ public class InternetDetailViewController : UIViewController
                 currentText.text = "Amber CSP app internet screen"
             }
         }
+        
+        
+        
     }
 }

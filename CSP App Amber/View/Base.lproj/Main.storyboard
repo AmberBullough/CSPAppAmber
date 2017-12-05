@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vSr-Jf-3A8">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="-1111.2" y="-36.431784107946029"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Internet Samples-->
         <scene sceneID="KTK-nl-GvR">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="bVv-Ce-W4k" customClass="InternetMasterViewController" customModule="CSP_App_Amber" customModuleProvider="target" sceneMemberID="viewController">
@@ -67,9 +67,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="showDetail" identifier="showDetail" id="oMw-cC-qA6"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -77,11 +74,11 @@
                             <outlet property="delegate" destination="bVv-Ce-W4k" id="Fi7-Sp-tiT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="YsC-8x-Ale"/>
+                    <navigationItem key="navigationItem" title="Internet Samples" id="YsC-8x-Ale"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWz-fi-OsP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-162" y="-724"/>
+            <point key="canvasLocation" x="-188" y="-698"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="F6g-WR-BhU">
@@ -99,6 +96,33 @@
             </objects>
             <point key="canvasLocation" x="-1110" y="-723"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="ZFN-mh-KM3">
+            <objects>
+                <viewController id="vSr-Jf-3A8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N5Z-Hu-uS6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbX-ad-WMc" customClass="DrawingView" customModule="CSP_App_Amber" customModuleProvider="target">
+                                <rect key="frame" x="55" y="20" width="267" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF2-Pp-Yyw">
+                                <rect key="frame" x="174" y="551" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ZVq-ij-zr9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUI-rI-ztg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1581" y="934"/>
+        </scene>
         <!--Split View Controller-->
         <scene sceneID="aA8-gs-kjq">
             <objects>
@@ -106,7 +130,6 @@
                     <connections>
                         <segue destination="gXy-WE-cf1" kind="relationship" relationship="masterViewController" id="inC-58-wTM"/>
                         <segue destination="C2o-g3-xdj" kind="relationship" relationship="detailViewController" id="Crp-lQ-9g5"/>
-                        <segue destination="BYZ-38-t0r" kind="show" id="Rgr-WH-1D4"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQq-iE-HBs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -137,6 +160,14 @@
                                 <state key="normal" title="Abstraction"/>
                                 <connections>
                                     <segue destination="T9C-5e-my6" kind="show" id="Qhd-zS-hYw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeK-rW-lpO">
+                                <rect key="frame" x="91" y="392" width="134" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Internet'"/>
+                                <connections>
+                                    <segue destination="MqK-DV-KyS" kind="showDetail" id="yXt-lN-A6O"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -534,7 +565,4 @@
         <image name="1x blocks" width="1877" height="657"/>
         <image name="javaSample copy2x" width="1126" height="754"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="oMw-cC-qA6"/>
-    </inferredMetricsTieBreakers>
 </document>

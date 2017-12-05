@@ -27,6 +27,7 @@
 		D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA21FC329A700B77DC5 /* ColorTools.swift */; };
 		D9B25EA51FC32A0000B77DC5 /* Moldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA41FC32A0000B77DC5 /* Moldable.swift */; };
 		D9B25EA71FC32A6900B77DC5 /* ClayMolds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */; };
+		D9D12FCF1FD6F0A70021F429 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D9B25EA21FC329A700B77DC5 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		D9B25EA41FC32A0000B77DC5 /* Moldable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moldable.swift; sourceTree = "<group>"; };
 		D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClayMolds.swift; sourceTree = "<group>"; };
+		D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				D93CF8371FA220D600061DF7 /* Main.storyboard */,
 				D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */,
+				D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */,
 				D93CF86F1FA223A300061DF7 /* InternetMasterViewController.swift in Sources */,
 				D93CF8691FA2235400061DF7 /* AbstractionViewController.swift in Sources */,
+				D9D12FCF1FD6F0A70021F429 /* DrawingView.swift in Sources */,
 				D9304AE51FB60AAD00709C39 /* GlobalImpactViewController.swift in Sources */,
 				D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */,
 			);
