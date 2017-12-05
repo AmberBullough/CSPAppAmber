@@ -29,7 +29,7 @@ public class DrawingView: UIView {
         UIColor.magenta.setStroke()
         stickFigure.lineWidth = 3.0
         
-        stickFigure.addArc(withCenter: CGPoint(x: 20, y: 200),
+        stickFigure.addArc(withCenter: CGPoint(x: 200, y: 200),
                            radius:CGFloat(20),
                            startAngle: CGFloat(0),
                            endAngle:CGFloat(2) * CGFloat.pi,

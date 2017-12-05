@@ -15,7 +15,6 @@
 		D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8351FA220D600061DF7 /* ViewController.swift */; };
 		D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF8371FA220D600061DF7 /* Main.storyboard */; };
 		D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93CF83A1FA220D600061DF7 /* Assets.xcassets */; };
-		D93CF83E1FA220D600061DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */; };
 		D93CF8491FA220D600061DF7 /* CSP_App_AmberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8481FA220D600061DF7 /* CSP_App_AmberTests.swift */; };
 		D93CF8541FA220D600061DF7 /* CSP_App_AmberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8531FA220D600061DF7 /* CSP_App_AmberUITests.swift */; };
 		D93CF8671FA2232F00061DF7 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */; };
@@ -57,7 +56,6 @@
 		D93CF8351FA220D600061DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D93CF8381FA220D600061DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D93CF83A1FA220D600061DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D93CF83D1FA220D600061DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93CF83F1FA220D600061DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93CF8441FA220D600061DF7 /* CSP App AmberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSP App AmberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93CF8481FA220D600061DF7 /* CSP_App_AmberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSP_App_AmberTests.swift; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				D93CF8371FA220D600061DF7 /* Main.storyboard */,
-				D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */,
 				D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */,
 			);
 			path = View;
@@ -315,7 +312,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93CF83E1FA220D600061DF7 /* LaunchScreen.storyboard in Resources */,
 				D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */,
 				D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */,
 			);
@@ -398,14 +394,6 @@
 				D93CF8381FA220D600061DF7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D93CF83C1FA220D600061DF7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D93CF83D1FA220D600061DF7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
