@@ -22,6 +22,7 @@
 		D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */; };
 		D93CF86D1FA2238A00061DF7 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */; };
 		D93CF86F1FA223A300061DF7 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */; };
+		D9666BF01FD99C58005729CB /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9666BEF1FD99C58005729CB /* ArtCell.swift */; };
 		D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */; };
 		D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA21FC329A700B77DC5 /* ColorTools.swift */; };
 		D9B25EA51FC32A0000B77DC5 /* Moldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA41FC32A0000B77DC5 /* Moldable.swift */; };
@@ -68,6 +69,7 @@
 		D93CF86A1FA2237200061DF7 /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
 		D93CF86C1FA2238A00061DF7 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		D9666BEF1FD99C58005729CB /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		D9B25EA21FC329A700B77DC5 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		D9B25EA41FC32A0000B77DC5 /* Moldable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moldable.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				D93CF8331FA220D600061DF7 /* AppDelegate.swift */,
+				D9666BEF1FD99C58005729CB /* ArtCell.swift */,
 				D9304AE61FB60BFC00709C39 /* GIVC2.swift */,
 				D93CF8351FA220D600061DF7 /* ViewController.swift */,
 				D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */,
@@ -353,6 +356,7 @@
 				D9D12FCF1FD6F0A70021F429 /* DrawingView.swift in Sources */,
 				D9304AE51FB60AAD00709C39 /* GlobalImpactViewController.swift in Sources */,
 				D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */,
+				D9666BF01FD99C58005729CB /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

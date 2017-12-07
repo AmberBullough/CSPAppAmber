@@ -49,6 +49,7 @@ public class CreativityViewController : UICollectionViewController, UICollection
                 
         })
         {
+            // Attaching code to existing method that doesnt belong to us
             completed in
             if let largePhotoIndexPath = self.largePhotoIndexPath
             {
