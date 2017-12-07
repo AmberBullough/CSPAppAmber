@@ -94,6 +94,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="imageName" destination="VtQ-mN-HWK" id="TFE-1E-rh7"/>
+                                    <outlet property="imageView" destination="Qvp-rf-k51" id="nEE-2a-kic"/>
                                     <outlet property="imageview" destination="Qvp-rf-k51" id="cNt-e2-EJo"/>
                                 </connections>
                             </collectionViewCell>
@@ -107,7 +108,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUW-jY-Q4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-959.20000000000005" y="724.58770614692662"/>
+            <point key="canvasLocation" x="-1111" y="725"/>
         </scene>
         <!--Internet Samples-->
         <scene sceneID="KTK-nl-GvR">
@@ -172,7 +173,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="gXy-WE-cf1" kind="show" id="0id-Zp-mPm"/>
+                                    <segue destination="lOM-UI-5ND" kind="show" id="eYc-OF-79M"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -633,7 +634,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQO-J0-die" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1648" y="725.93703148425789"/>
+            <point key="canvasLocation" x="-2218" y="725"/>
         </scene>
     </scenes>
     <resources>
@@ -644,7 +645,4 @@
         <image name="1x blocks" width="1877" height="657"/>
         <image name="javaSample copy2x" width="1126" height="754"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="0id-Zp-mPm"/>
-    </inferredMetricsTieBreakers>
 </document>

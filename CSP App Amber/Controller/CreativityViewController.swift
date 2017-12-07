@@ -25,7 +25,8 @@ public class CreativityViewController : UICollectionViewController, UICollection
             UIImage(named: "Ollie"),
             UIImage(named: "1x binary"),
             UIImage(named: "Badger"),
-            UIImage(named: "tree pic")
+            UIImage(named: "tree pic"),
+            UIImage(named: "Haiku")
             ]
     }()
     
@@ -73,18 +74,18 @@ public class CreativityViewController : UICollectionViewController, UICollection
         return 1
     }
     
-    override public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> UICollectionViewCell
+    override public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
         return artSelection.count
         
     }
     
     
-    override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath)
+    override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
-        artCell.backgrounColor = .orange
+        artCell.backgroundColor = .orange
         artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "My Art"
         
