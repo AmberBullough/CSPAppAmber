@@ -76,8 +76,8 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qvp-rf-k51">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="239"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-QK-uvR">
-                                            <rect key="frame" x="0.0" y="300" width="250" height="0.0"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtQ-mN-HWK">
+                                            <rect key="frame" x="0.0" y="279.5" width="250" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -86,16 +86,14 @@
                                 </view>
                                 <constraints>
                                     <constraint firstItem="Qvp-rf-k51" firstAttribute="leading" secondItem="Jye-f7-GSN" secondAttribute="leading" id="0bk-jI-7dO"/>
-                                    <constraint firstItem="dyz-QK-uvR" firstAttribute="top" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="RME-vg-lsq"/>
-                                    <constraint firstAttribute="bottom" secondItem="dyz-QK-uvR" secondAttribute="bottom" id="SFv-24-Dn8"/>
-                                    <constraint firstAttribute="bottom" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="Uv7-fL-B7k"/>
+                                    <constraint firstItem="VtQ-mN-HWK" firstAttribute="top" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="67u-ha-8Yb"/>
+                                    <constraint firstItem="VtQ-mN-HWK" firstAttribute="leading" secondItem="Jye-f7-GSN" secondAttribute="leading" id="Mva-wG-glW"/>
+                                    <constraint firstAttribute="trailing" secondItem="VtQ-mN-HWK" secondAttribute="trailing" id="ah8-ZR-qjp"/>
+                                    <constraint firstAttribute="bottom" secondItem="VtQ-mN-HWK" secondAttribute="bottom" id="l2C-3d-HIp"/>
                                     <constraint firstAttribute="trailing" secondItem="Qvp-rf-k51" secondAttribute="trailing" id="us6-SJ-cDv"/>
-                                    <constraint firstItem="dyz-QK-uvR" firstAttribute="leading" secondItem="Jye-f7-GSN" secondAttribute="leading" id="w4l-ns-E7g"/>
-                                    <constraint firstAttribute="trailing" secondItem="dyz-QK-uvR" secondAttribute="trailing" id="zIS-sz-8Sj"/>
-                                    <constraint firstItem="dyz-QK-uvR" firstAttribute="top" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="zYh-DK-LAG"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="imageName" destination="RME-vg-lsq" id="Gxm-h9-Flr"/>
+                                    <outlet property="imageName" destination="VtQ-mN-HWK" id="TFE-1E-rh7"/>
                                     <outlet property="imageview" destination="Qvp-rf-k51" id="cNt-e2-EJo"/>
                                 </connections>
                             </collectionViewCell>
@@ -109,7 +107,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUW-jY-Q4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-959" y="725"/>
+            <point key="canvasLocation" x="-959.20000000000005" y="724.58770614692662"/>
         </scene>
         <!--Internet Samples-->
         <scene sceneID="KTK-nl-GvR">
