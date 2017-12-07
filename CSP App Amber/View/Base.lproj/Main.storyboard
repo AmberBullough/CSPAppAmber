@@ -51,6 +51,66 @@
             </objects>
             <point key="canvasLocation" x="-1111.2" y="-36.431784107946029"/>
         </scene>
+        <!--Creativity View Controller-->
+        <scene sceneID="7rX-DF-A8n">
+            <objects>
+                <collectionViewController id="yNg-YP-GKb" customClass="CreativityViewController" customModule="CSP_App_Amber" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="aVA-5s-4pJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9HR-MG-tFY">
+                            <size key="itemSize" width="250" height="300"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentier" id="Jye-f7-GSN" customClass="ArtCell" customModule="CSP_App_Amber" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="0.0" width="250" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qvp-rf-k51">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="239"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-QK-uvR">
+                                            <rect key="frame" x="0.0" y="300" width="250" height="0.0"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="Qvp-rf-k51" firstAttribute="leading" secondItem="Jye-f7-GSN" secondAttribute="leading" id="0bk-jI-7dO"/>
+                                    <constraint firstItem="dyz-QK-uvR" firstAttribute="top" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="RME-vg-lsq"/>
+                                    <constraint firstAttribute="bottom" secondItem="dyz-QK-uvR" secondAttribute="bottom" id="SFv-24-Dn8"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="Uv7-fL-B7k"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qvp-rf-k51" secondAttribute="trailing" id="us6-SJ-cDv"/>
+                                    <constraint firstItem="dyz-QK-uvR" firstAttribute="leading" secondItem="Jye-f7-GSN" secondAttribute="leading" id="w4l-ns-E7g"/>
+                                    <constraint firstAttribute="trailing" secondItem="dyz-QK-uvR" secondAttribute="trailing" id="zIS-sz-8Sj"/>
+                                    <constraint firstItem="dyz-QK-uvR" firstAttribute="top" secondItem="Qvp-rf-k51" secondAttribute="bottom" id="zYh-DK-LAG"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageName" destination="RME-vg-lsq" id="Gxm-h9-Flr"/>
+                                    <outlet property="imageview" destination="Qvp-rf-k51" id="cNt-e2-EJo"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="yNg-YP-GKb" id="RxK-E9-GOi"/>
+                            <outlet property="delegate" destination="yNg-YP-GKb" id="y9b-uL-ZVH"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="cGp-D2-iEF"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vUW-jY-Q4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959" y="725"/>
+        </scene>
         <!--Internet Samples-->
         <scene sceneID="KTK-nl-GvR">
             <objects>
@@ -184,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="456.80000000000001" y="133.5832083958021"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HSj-cz-7Yp">
@@ -199,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fjV-Rv-87b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="850"/>
+            <point key="canvasLocation" x="456.80000000000001" y="849.62518740629696"/>
         </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="wSK-ye-IPj">
@@ -402,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uXm-r0-KwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="850"/>
+            <point key="canvasLocation" x="1204" y="849.62518740629696"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UoZ-zy-5a0">
@@ -417,7 +477,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UOF-Ux-dgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="850"/>
+            <point key="canvasLocation" x="1927.2" y="849.62518740629696"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="L01-8Z-RVo">
@@ -432,7 +492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4d-fs-YYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="850"/>
+            <point key="canvasLocation" x="2632.8000000000002" y="849.62518740629696"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="uwa-oe-cnw">
@@ -469,7 +529,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njx-6y-ICr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="134"/>
+            <point key="canvasLocation" x="1204" y="133.5832083958021"/>
         </scene>
         <!--GIVC2-->
         <scene sceneID="2yL-Vz-bLY">
@@ -542,7 +602,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ikr-Kk-RrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1588" y="117.39130434782609"/>
+            <point key="canvasLocation" x="1927.2" y="117.39130434782609"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oK8-rw-mhS">
@@ -557,7 +617,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mmp-EI-9bL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2294" y="117"/>
+            <point key="canvasLocation" x="2632.8000000000002" y="116.49175412293854"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bCS-aO-pik">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lOM-UI-5ND" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bIX-fb-B4x">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yNg-YP-GKb" kind="relationship" relationship="rootViewController" id="i96-o0-hJy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eQO-J0-die" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1648" y="725.93703148425789"/>
         </scene>
     </scenes>
     <resources>
