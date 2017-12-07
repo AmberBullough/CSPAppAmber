@@ -31,11 +31,11 @@ public class InternetMasterViewController : UITableViewController
         //TODO Replace with correct links
         addresses = [
             "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com"
+            "https://canyons.instructure.com/courses/1137392",
+            "https://ctec.canyonsdistrict.org/",
+            "http://www.canyonsdistrict.org/",
+            "https://twitter.com/?lang=en",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html"
         ]
         if let splitView = splitViewController
         {
