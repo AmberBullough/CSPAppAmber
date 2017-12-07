@@ -59,3 +59,42 @@ public class CreativityViewController : UICollectionViewController, UICollection
         }
     }
 }
+
+    //Mark: Lifeycle methods
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+}
+    //Mark: -UICollection View Methods
+    
+    override public func numberOfSections(in collectionView: UICollectionView) -> Int
+    {
+        return 1
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> UICollectionViewCell
+    {
+        return artSelection.count
+        
+    }
+    
+    
+    override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath)
+    {
+        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
+        
+        artCell.backgrounColor = .orange
+        artCell.imageView.image = artSelection[indexPath.row]
+        artCell.imageName.text = "My Art"
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
