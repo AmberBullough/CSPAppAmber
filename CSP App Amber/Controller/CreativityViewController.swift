@@ -86,7 +86,54 @@ public class CreativityViewController : UICollectionViewController, UICollection
         artCell.backgrounColor = .orange
         artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "My Art"
+        
+        return artCell
     }
+    
+    //Delegate Methods
+    
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               sizeForItemAt indexPath: IndexPath) -> CGSize {
+        if indexPath == largePhotoIndexPath
+        {
+            let art = artSelection[indexPath.row]
+            let size = collectionView.bounds.size
+            let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
+            let largeSize = CGSize(width: art!.size.width * widthScale, height: art!.size.height * widthScale)
+            
+            return largeSize
+        }
+        let paddingSpace = sectionInserts.left * (itemsPerRow + 1)
+        let availableWidth = view.frame.width - paddingSpace
+        let widthPerItem = availableWidth / itemsPerRow
+        
+        return CGSize(width: widthPerItem, height: widthPerItem)
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView,
+                               layout collectionViewLayout: UICollectionViewLayout,
+                               insetForSectionAt section: Int) -> CGFloat {
+        return sectionInserts.left
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView,
+                                        shouldSelectItemAt indexPath: IndexPath) -> Bool
+    {
+        if largePhotoIndexPath == indexPath
+        {
+            largePhotoIndexPath = nil
+        }
+        else
+        {
+            largePhotoIndexPath = indexPath
+        }
+        
+        return false
+    }
+    
+    
+    
     }
     
     
@@ -97,4 +144,4 @@ public class CreativityViewController : UICollectionViewController, UICollection
     
     
     
-}
+
