@@ -110,9 +110,12 @@
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF2-Pp-Yyw">
-                                <rect key="frame" x="174" y="551" width="46" height="30"/>
+                                <rect key="frame" x="188" y="545" width="92" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="gXy-WE-cf1" kind="show" id="0id-Zp-mPm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -121,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUI-rI-ztg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3282" y="-430"/>
+            <point key="canvasLocation" x="-3282.4000000000001" y="-430.43478260869568"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="aA8-gs-kjq">
@@ -565,4 +568,7 @@
         <image name="1x blocks" width="1877" height="657"/>
         <image name="javaSample copy2x" width="1126" height="754"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="0id-Zp-mPm"/>
+    </inferredMetricsTieBreakers>
 </document>
