@@ -66,7 +66,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentier" id="Jye-f7-GSN" customClass="ArtCell" customModule="CSP_App_Amber" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="Jye-f7-GSN" customClass="ArtCell" customModule="CSP_App_Amber" customModuleProvider="target">
                                 <rect key="frame" x="62.5" y="0.0" width="250" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -95,7 +95,6 @@
                                 <connections>
                                     <outlet property="imageName" destination="VtQ-mN-HWK" id="TFE-1E-rh7"/>
                                     <outlet property="imageView" destination="Qvp-rf-k51" id="nEE-2a-kic"/>
-                                    <outlet property="imageview" destination="Qvp-rf-k51" id="cNt-e2-EJo"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -168,12 +167,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF2-Pp-Yyw">
-                                <rect key="frame" x="188" y="545" width="92" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MD-NB-gYW">
+                                <rect key="frame" x="164" y="562" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="lOM-UI-5ND" kind="show" id="eYc-OF-79M"/>
+                                    <segue destination="lOM-UI-5ND" kind="show" id="giq-Np-3mX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -183,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUI-rI-ztg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4244" y="725"/>
+            <point key="canvasLocation" x="-4244" y="724.58770614692662"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="aA8-gs-kjq">
