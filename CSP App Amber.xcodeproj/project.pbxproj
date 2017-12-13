@@ -28,6 +28,10 @@
 		D9B25EA51FC32A0000B77DC5 /* Moldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA41FC32A0000B77DC5 /* Moldable.swift */; };
 		D9B25EA71FC32A6900B77DC5 /* ClayMolds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */; };
 		D9D12FCF1FD6F0A70021F429 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */; };
+		D9D9BA3C1FE173F3000C13E6 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = D9D9BA3B1FE173F3000C13E6 /* GameController */; };
+		D9D9BA3F1FE174C5000C13E6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9BA3D1FE174C5000C13E6 /* Utilities.swift */; };
+		D9D9BA401FE174C5000C13E6 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D9D9BA3E1FE174C5000C13E6 /* Sounds */; };
+		D9D9BA421FE176FB000C13E6 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = D9D9BA411FE176FB000C13E6 /* StarField.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +79,10 @@
 		D9B25EA41FC32A0000B77DC5 /* Moldable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moldable.swift; sourceTree = "<group>"; };
 		D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClayMolds.swift; sourceTree = "<group>"; };
 		D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		D9D9BA3B1FE173F3000C13E6 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
+		D9D9BA3D1FE174C5000C13E6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D9D9BA3E1FE174C5000C13E6 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		D9D9BA411FE176FB000C13E6 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +172,7 @@
 		D93CF8611FA2211000061DF7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D9D9BA3B1FE173F3000C13E6 /* GameController */,
 				D93CF8331FA220D600061DF7 /* AppDelegate.swift */,
 				D9666BEF1FD99C58005729CB /* ArtCell.swift */,
 				D9304AE61FB60BFC00709C39 /* GIVC2.swift */,
@@ -193,6 +202,7 @@
 		D93CF8641FA2213B00061DF7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9D9BA411FE176FB000C13E6 /* StarField.sks */,
 				D93CF8371FA220D600061DF7 /* Main.storyboard */,
 				D9D12FCE1FD6F0A70021F429 /* DrawingView.swift */,
 			);
@@ -202,6 +212,8 @@
 		D93CF8651FA2214E00061DF7 /* Rescources */ = {
 			isa = PBXGroup;
 			children = (
+				D9D9BA3E1FE174C5000C13E6 /* Sounds */,
+				D9D9BA3D1FE174C5000C13E6 /* Utilities.swift */,
 				D93CF83A1FA220D600061DF7 /* Assets.xcassets */,
 				D93CF83F1FA220D600061DF7 /* Info.plist */,
 			);
@@ -317,6 +329,9 @@
 			files = (
 				D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */,
 				D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */,
+				D9D9BA421FE176FB000C13E6 /* StarField.sks in Resources */,
+				D9D9BA401FE174C5000C13E6 /* Sounds in Resources */,
+				D9D9BA3C1FE173F3000C13E6 /* GameController in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +366,7 @@
 				D9B25EA71FC32A6900B77DC5 /* ClayMolds.swift in Sources */,
 				D93CF8671FA2232F00061DF7 /* CreativityViewController.swift in Sources */,
 				D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */,
+				D9D9BA3F1FE174C5000C13E6 /* Utilities.swift in Sources */,
 				D93CF86F1FA223A300061DF7 /* InternetMasterViewController.swift in Sources */,
 				D93CF8691FA2235400061DF7 /* AbstractionViewController.swift in Sources */,
 				D9D12FCF1FD6F0A70021F429 /* DrawingView.swift in Sources */,
