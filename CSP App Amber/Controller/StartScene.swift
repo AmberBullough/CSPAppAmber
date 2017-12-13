@@ -29,7 +29,7 @@ public class StartScene : SKScene
     {
         let currentTouch = touches.first
         let touchLocation = currentTouch?.location(in: self)
-        if touchedNode = self.atPoint(touchLocation!)
+        let touchedNode = self.atPoint(touchLocation!)
         
         if (touchedNode.name == "start")
         {
