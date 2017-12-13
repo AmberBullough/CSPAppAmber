@@ -12,6 +12,7 @@ var gameLevel : Int = 1
 
 
 struct CollisionCategories
+    //Struct is useless in Java. Allows copy of things
 {
     static let Invader : UInt32 = 0x1 << 0
     static let Player: UInt32 = 0x1 << 1
@@ -21,6 +22,7 @@ struct CollisionCategories
 }
 
 extension Array
+    //Only swift. 
 {
     public func randomElement() -> Element?
     {

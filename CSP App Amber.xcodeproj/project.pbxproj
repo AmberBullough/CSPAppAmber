@@ -32,6 +32,7 @@
 		D9D9BA3F1FE174C5000C13E6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D9BA3D1FE174C5000C13E6 /* Utilities.swift */; };
 		D9D9BA401FE174C5000C13E6 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = D9D9BA3E1FE174C5000C13E6 /* Sounds */; };
 		D9D9BA421FE176FB000C13E6 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = D9D9BA411FE176FB000C13E6 /* StarField.sks */; };
+		D9D9BA441FE17BFE000C13E6 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = D9D9BA431FE17BFE000C13E6 /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		D9D9BA3D1FE174C5000C13E6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D9D9BA3E1FE174C5000C13E6 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		D9D9BA411FE176FB000C13E6 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		D9D9BA431FE17BFE000C13E6 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		D93CF8621FA2212400061DF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D9D9BA431FE17BFE000C13E6 /* Model */,
 				D9B25EA21FC329A700B77DC5 /* ColorTools.swift */,
 				D9B25EA41FC32A0000B77DC5 /* Moldable.swift */,
 				D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */,
@@ -327,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D9BA441FE17BFE000C13E6 /* Model in Resources */,
 				D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */,
 				D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */,
 				D9D9BA421FE176FB000C13E6 /* StarField.sks in Resources */,
