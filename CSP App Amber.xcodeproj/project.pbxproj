@@ -191,11 +191,9 @@
 		D93CF8611FA2211000061DF7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D97D9C731FE96D5E0030485D /* GameController */,
 				D93CF8331FA220D600061DF7 /* AppDelegate.swift */,
 				D9666BEF1FD99C58005729CB /* ArtCell.swift */,
-				D9D9BA451FE1822A000C13E6 /* GameScene.swift */,
-				D9D9BA461FE1822A000C13E6 /* LevelCompleteScene.swift */,
-				D9D9BA471FE1822A000C13E6 /* StartScene.swift */,
 				D9304AE61FB60BFC00709C39 /* GIVC2.swift */,
 				D93CF8351FA220D600061DF7 /* ViewController.swift */,
 				D93CF8661FA2232F00061DF7 /* CreativityViewController.swift */,
@@ -206,7 +204,6 @@
 				D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */,
 				D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */,
 				D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */,
-				D97D9C711FE9686E0030485D /* DeathScene.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +246,17 @@
 				D93CF83F1FA220D600061DF7 /* Info.plist */,
 			);
 			path = Rescources;
+			sourceTree = "<group>";
+		};
+		D97D9C731FE96D5E0030485D /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				D9D9BA451FE1822A000C13E6 /* GameScene.swift */,
+				D9D9BA461FE1822A000C13E6 /* LevelCompleteScene.swift */,
+				D9D9BA471FE1822A000C13E6 /* StartScene.swift */,
+				D97D9C711FE9686E0030485D /* DeathScene.swift */,
+			);
+			path = GameController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

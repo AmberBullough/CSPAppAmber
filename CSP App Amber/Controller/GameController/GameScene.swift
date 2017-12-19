@@ -79,7 +79,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             
         }
         
-        if(changeDirection == true)
+        if(changeDirection)
         {
             self.invaderSpeed *= -1
             self.enumerateChildNodes(withName: "invader")
@@ -107,12 +107,27 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     func newGame() -> Void
     {
-        
+        let newGameScene = StartScene(size: size)
+        newGameScene.scaleMode = scaleMode
+        let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+        view?.presentScene(newGameScene,transition: transitionType)
     }
     
     func levelComplete() -> Void
     {
-        
+            if(gameLevel <= maxLevels)
+            {
+                let levelCompleteScene = LevelCompleteScene(size: size)
+                levelCompleteScene.scaleMode = scaleMode
+                let transitiontype = SKTransition.flipHorizontal(withDuration: 0.5)
+                view?.presentScene(levelCompleteScene, transition: transitiontype)
+            }
+            else
+            {
+                gameLevel = 1
+                newGame()
+                
+            }
     }
     
     
@@ -124,6 +139,11 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         self.physicsWorld.contactDelegate = self
         self.physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         self.physicsBody?.categoryBitMask = CollisionCategories.EdgeBody
+        
+        let starField = SKEmitterNode(fileNamed: "StarField")
+        starField?.position = CGPoint(x: size.width / 2, y: size.height / 2)
+        starField?.zPosition = -1000
+        addChild(starField!)
         
         backgroundColor = UIColor.magenta
         rightBounds = self.size.width - 30
