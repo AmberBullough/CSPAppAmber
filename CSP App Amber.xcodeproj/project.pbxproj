@@ -24,6 +24,7 @@
 		D93CF86F1FA223A300061DF7 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */; };
 		D9666BF01FD99C58005729CB /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9666BEF1FD99C58005729CB /* ArtCell.swift */; };
 		D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */; };
+		D97D9C721FE9686E0030485D /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D9C711FE9686E0030485D /* DeathScene.swift */; };
 		D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA21FC329A700B77DC5 /* ColorTools.swift */; };
 		D9B25EA51FC32A0000B77DC5 /* Moldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA41FC32A0000B77DC5 /* Moldable.swift */; };
 		D9B25EA71FC32A6900B77DC5 /* ClayMolds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */; };
@@ -81,6 +82,7 @@
 		D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		D9666BEF1FD99C58005729CB /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
+		D97D9C711FE9686E0030485D /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		D9B25EA21FC329A700B77DC5 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		D9B25EA41FC32A0000B77DC5 /* Moldable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moldable.swift; sourceTree = "<group>"; };
 		D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClayMolds.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				D93CF86E1FA223A300061DF7 /* InternetMasterViewController.swift */,
 				D93B01921FCF044E0001AC84 /* InternetDetailViewController.swift */,
 				D9304AE41FB60AAD00709C39 /* GlobalImpactViewController.swift */,
+				D97D9C711FE9686E0030485D /* DeathScene.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				D9D9BA4A1FE1822A000C13E6 /* StartScene.swift in Sources */,
 				D93CF8361FA220D600061DF7 /* ViewController.swift in Sources */,
 				D93CF8341FA220D600061DF7 /* AppDelegate.swift in Sources */,
+				D97D9C721FE9686E0030485D /* DeathScene.swift in Sources */,
 				D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */,
 				D9D9BA501FE188A8000C13E6 /* PlayerLaser.swift in Sources */,
 				D93B01931FCF044E0001AC84 /* InternetDetailViewController.swift in Sources */,
