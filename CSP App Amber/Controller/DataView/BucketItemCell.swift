@@ -52,7 +52,7 @@ class BucketItemCell : UITableViewCell
             bucketItemSignature.text = "Author Goes Here."
             bucketItemText.text = "Text Goes Here."
         }
-        bucketItemSymbol.text = randomEmojiSymbol()
+        bucketItemSymbol.text = randomEmoji()
     }
     
     public override func awakeFromNib()

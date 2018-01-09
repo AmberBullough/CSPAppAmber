@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vSr-Jf-3A8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -241,13 +241,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Algorithms"/>
                                 <connections>
-                                    <action selector="AlgorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xqZ-je-xuI"/>
-                                    <action selector="AlgorithmsSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LI2-DS-yaM"/>
                                     <segue destination="ATg-vc-Hfg" kind="show" id="wSJ-k5-jA8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfA-zB-ik0">
-                                <rect key="frame" x="146" y="153" width="118" height="77"/>
+                                <rect key="frame" x="107" y="54" width="118" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Abstraction"/>
                                 <connections>
@@ -255,25 +253,30 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeK-rW-lpO">
-                                <rect key="frame" x="91" y="392" width="134" height="104"/>
+                                <rect key="frame" x="225" y="27" width="134" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Internet'"/>
+                                <state key="normal" title="Internet"/>
                                 <connections>
                                     <segue destination="MqK-DV-KyS" kind="showDetail" id="yXt-lN-A6O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pjk-lb-U6G">
+                                <rect key="frame" x="16" y="131" width="180" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Data"/>
+                                <connections>
+                                    <segue destination="3R7-4Q-MsQ" kind="show" id="Lk5-q1-6qH"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="AlgorithmButton" destination="egW-JO-diY" id="h8P-FF-RHn"/>
-                        <outlet property="AlgorithmsSegue" destination="egW-JO-diY" id="aos-A8-WYR"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="gad-98-6n6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-5260" y="-2146"/>
         </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="wSK-ye-IPj">
@@ -283,10 +286,10 @@
             </objects>
             <point key="canvasLocation" x="-602" y="1727"/>
         </scene>
-        <!--View Controller-->
+        <!--Block-->
         <scene sceneID="8lf-77-VJz">
             <objects>
-                <viewController storyboardIdentifier="BlockViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fQc-Ak-Hqr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fQc-Ak-Hqr" customClass="Block" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8GA-Or-YKs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -320,10 +323,10 @@
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="1725.7871064467768"/>
         </scene>
-        <!--View Controller-->
+        <!--Java-->
         <scene sceneID="86D-Vr-zTs">
             <objects>
-                <viewController storyboardIdentifier="JavaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fes-hF-gs0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JavaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fes-hF-gs0" customClass="Java" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Skq-Rn-Eq1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -356,10 +359,10 @@
             </objects>
             <point key="canvasLocation" x="709.60000000000002" y="1725.7871064467768"/>
         </scene>
-        <!--View Controller-->
+        <!--Byte Code-->
         <scene sceneID="MUF-Ld-jr1">
             <objects>
-                <viewController storyboardIdentifier="ByteCodeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="s4S-ot-oK9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ByteCodeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="s4S-ot-oK9" customClass="ByteCode" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="szg-OI-8aq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -392,10 +395,10 @@
             </objects>
             <point key="canvasLocation" x="1335.2" y="1725.7871064467768"/>
         </scene>
-        <!--View Controller-->
+        <!--Binary-->
         <scene sceneID="mhX-cp-xV3">
             <objects>
-                <viewController storyboardIdentifier="BinaryViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pZf-8P-mR4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pZf-8P-mR4" customClass="Binary" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uPs-HT-3EW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -428,10 +431,10 @@
             </objects>
             <point key="canvasLocation" x="1973.5999999999999" y="1723.9880059970017"/>
         </scene>
-        <!--View Controller-->
+        <!--And Gate-->
         <scene sceneID="YrZ-zR-kwP">
             <objects>
-                <viewController storyboardIdentifier="AndGateViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ude-IN-4OK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AndGateViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ude-IN-4OK" customClass="AndGate" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4TC-qR-HoP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -498,7 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njx-6y-ICr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1204" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1543.2" y="133.5832083958021"/>
         </scene>
         <!--GIVC2-->
         <scene sceneID="2yL-Vz-bLY">
@@ -571,7 +574,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ikr-Kk-RrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1927.2" y="117.39130434782609"/>
+            <point key="canvasLocation" x="2266.4000000000001" y="117.39130434782609"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="9cg-Dq-Ufo">
@@ -649,7 +652,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hka-IF-DQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4104.8000000000002" y="-122.78860569715144"/>
+            <point key="canvasLocation" x="4444" y="-122.78860569715144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bCS-aO-pik">
