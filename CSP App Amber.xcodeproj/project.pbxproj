@@ -25,6 +25,10 @@
 		D9666BF01FD99C58005729CB /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9666BEF1FD99C58005729CB /* ArtCell.swift */; };
 		D96D4ECF1FB35B6200D183CF /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */; };
 		D97D9C721FE9686E0030485D /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97D9C711FE9686E0030485D /* DeathScene.swift */; };
+		D99FBD1820050BA700BA5F3E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FBD1720050BA700BA5F3E /* DataViewController.swift */; };
+		D99FBD1A20050C6700BA5F3E /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FBD1920050C6700BA5F3E /* BucketItemCell.swift */; };
+		D99FBD1C20050C9B00BA5F3E /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99FBD1B20050C9B00BA5F3E /* BucketItem.swift */; };
+		D99FBD1F20050D1400BA5F3E /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = D99FBD1E20050D1400BA5F3E /* bucket.csv */; };
 		D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA21FC329A700B77DC5 /* ColorTools.swift */; };
 		D9B25EA51FC32A0000B77DC5 /* Moldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA41FC32A0000B77DC5 /* Moldable.swift */; };
 		D9B25EA71FC32A6900B77DC5 /* ClayMolds.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */; };
@@ -83,6 +87,10 @@
 		D9666BEF1FD99C58005729CB /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		D96D4ECE1FB35B6200D183CF /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		D97D9C711FE9686E0030485D /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
+		D99FBD1720050BA700BA5F3E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D99FBD1920050C6700BA5F3E /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		D99FBD1B20050C9B00BA5F3E /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		D99FBD1E20050D1400BA5F3E /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		D9B25EA21FC329A700B77DC5 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		D9B25EA41FC32A0000B77DC5 /* Moldable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moldable.swift; sourceTree = "<group>"; };
 		D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClayMolds.swift; sourceTree = "<group>"; };
@@ -191,6 +199,7 @@
 		D93CF8611FA2211000061DF7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D99FBD1D20050CAD00BA5F3E /* DataView */,
 				D97D9C731FE96D5E0030485D /* GameController */,
 				D93CF8331FA220D600061DF7 /* AppDelegate.swift */,
 				D9666BEF1FD99C58005729CB /* ArtCell.swift */,
@@ -219,6 +228,7 @@
 				D9D9BA4C1FE188A8000C13E6 /* Projectile.swift */,
 				D9B25EA41FC32A0000B77DC5 /* Moldable.swift */,
 				D9B25EA61FC32A6900B77DC5 /* ClayMolds.swift */,
+				D99FBD1B20050C9B00BA5F3E /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +246,7 @@
 		D93CF8651FA2214E00061DF7 /* Rescources */ = {
 			isa = PBXGroup;
 			children = (
+				D99FBD1E20050D1400BA5F3E /* bucket.csv */,
 				D9D9BA3D1FE174C5000C13E6 /* Utilities.swift */,
 				D9D9BA551FE188B4000C13E6 /* boss sound.mp3 */,
 				D9D9BA581FE188B4000C13E6 /* extra sound.mp3 */,
@@ -257,6 +268,15 @@
 				D97D9C711FE9686E0030485D /* DeathScene.swift */,
 			);
 			path = GameController;
+			sourceTree = "<group>";
+		};
+		D99FBD1D20050CAD00BA5F3E /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				D99FBD1720050BA700BA5F3E /* DataViewController.swift */,
+				D99FBD1920050C6700BA5F3E /* BucketItemCell.swift */,
+			);
+			path = DataView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +388,7 @@
 			files = (
 				D93CF83B1FA220D600061DF7 /* Assets.xcassets in Resources */,
 				D93CF8391FA220D600061DF7 /* Main.storyboard in Resources */,
+				D99FBD1F20050D1400BA5F3E /* bucket.csv in Resources */,
 				D9D9BA421FE176FB000C13E6 /* StarField.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,9 +430,11 @@
 				D93CF86B1FA2237200061DF7 /* DataAndInformationViewController.swift in Sources */,
 				D9D9BA511FE188A8000C13E6 /* Projectile.swift in Sources */,
 				D9D9BA3F1FE174C5000C13E6 /* Utilities.swift in Sources */,
+				D99FBD1A20050C6700BA5F3E /* BucketItemCell.swift in Sources */,
 				D93CF86F1FA223A300061DF7 /* InternetMasterViewController.swift in Sources */,
 				D9D9BA481FE1822A000C13E6 /* GameScene.swift in Sources */,
 				D93CF8691FA2235400061DF7 /* AbstractionViewController.swift in Sources */,
+				D99FBD1820050BA700BA5F3E /* DataViewController.swift in Sources */,
 				D9D9BA541FE188A8000C13E6 /* Player.swift in Sources */,
 				D9D9BA521FE188A8000C13E6 /* InvaderLaser.swift in Sources */,
 				D9D12FCF1FD6F0A70021F429 /* DrawingView.swift in Sources */,
@@ -419,6 +442,7 @@
 				D9D9BA491FE1822A000C13E6 /* LevelCompleteScene.swift in Sources */,
 				D9B25EA31FC329A700B77DC5 /* ColorTools.swift in Sources */,
 				D9666BF01FD99C58005729CB /* ArtCell.swift in Sources */,
+				D99FBD1C20050C9B00BA5F3E /* BucketItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
