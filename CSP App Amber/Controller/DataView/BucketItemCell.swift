@@ -39,4 +39,29 @@ class BucketItemCell : UITableViewCell
         let emoji = UnicodeScalar(ascii)?.description
         return emoji!
     }
+    
+    private func updateCellView()
+    {
+        if (bucketItem != nil)
+        {
+            bucketItemSignature.text = bucketItem.itemAuthor
+            bucketItemText.text = bucketItem.itemContents
+        }
+        else
+        {
+            bucketItemSignature.text = "Author Goes Here."
+            bucketItemText.text = "Text Goes Here."
+        }
+        bucketItemSymbol.text = randomEmojiSymbol()
+    }
+    
+    public override func awakeFromNib()
+    {
+        super.awakeFromNib()
+    }
+    
+    public override func setSelected(_ selected: Bool, animated: Bool)
+    {
+        super.setSelected(selected, animated: animated)
+    }
 }
