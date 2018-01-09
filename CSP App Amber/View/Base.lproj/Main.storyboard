@@ -582,7 +582,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ap0-aU-xfX">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ap0-aU-xfX" customClass="BucketItemCell" customModule="CSP_App_Amber" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ap0-aU-xfX" id="8EL-Is-8I1" customClass="BucketItemCell" customModule="CSP_App_Amber" customModuleProvider="target">
@@ -633,14 +633,11 @@
                                         <constraint firstItem="DLf-ly-146" firstAttribute="leading" secondItem="8EL-Is-8I1" secondAttribute="leading" id="ehq-MU-htS"/>
                                         <constraint firstItem="RQQ-Cx-Ubk" firstAttribute="top" secondItem="8EL-Is-8I1" secondAttribute="top" constant="20" id="wzL-fe-ttu"/>
                                     </constraints>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2C0-8R-68h">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2C0-8R-68h" id="oN7-45-huy">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <connections>
+                                        <outlet property="bucketItemSignature" destination="RQQ-Cx-Ubk" id="Sbk-WO-1ns"/>
+                                        <outlet property="bucketItemSymbol" destination="DLf-ly-146" id="KTN-x9-v5F"/>
+                                        <outlet property="bucketItemText" destination="bNH-7Q-7GT" id="Nbb-o2-wbb"/>
+                                    </connections>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
